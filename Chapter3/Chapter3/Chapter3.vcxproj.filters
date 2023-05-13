@@ -15,53 +15,61 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2-01.cpp">
+    <ClCompile Include="3-01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-02.cpp">
+    <ClCompile Include="3-02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-03.cpp">
+    <ClCompile Include="3-03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-04.cpp">
+    <ClCompile Include="3-04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-05.cpp">
+    <ClCompile Include="3-05.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-06.cpp">
+    <ClCompile Include="3-06.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-07.cpp">
+    <ClCompile Include="3-07.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-08.cpp">
+    <ClCompile Include="3-08.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-09.cpp">
+    <ClCompile Include="3-09.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-10.cpp">
+    <ClCompile Include="Calculator1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-11.cpp">
+    <ClCompile Include="Calculator2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-12.cpp">
+    <ClCompile Include="Box.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-13.cpp">
+    <ClCompile Include="Boxmain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-14.cpp">
+    <ClCompile Include="Ram.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-15.cpp">
+    <ClCompile Include="Rammain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="2-16.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Ram.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
