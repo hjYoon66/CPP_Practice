@@ -13,7 +13,8 @@ class Player {
 	string name;
 public:
 	Player() :Player("플레이어"){}
-	Player(string name) { this->name = name; }
+	Player(string name) { this->name = name;
+	}
 	string getName() { return name; }
 	bool playGambling();
 };
