@@ -1,4 +1,4 @@
-//문제 2-2. Book 객체를 활용하는 사례이다. 세개의 == 연산자를 friend 함수로 작성하라
+//문제 4. 다음 연산을 통해 책의 제목을 사전 순으로 비교하고자 한다. < 연산자를 작성하라
 #include <iostream>
 #include <string>
 using namespace std;
@@ -27,25 +27,39 @@ public:
         this->price -= price;
         return *this;
     }
-    friend bool operator==(Book a,int price);
-    friend bool operator==(Book a,string title);
-    friend bool operator==(Book a,Book& b);
+    friend bool operator==(Book a, int price);
+    friend bool operator==(Book a, string title);
+    friend bool operator==(Book a, Book& b);
+    bool operator!() {
+        if (this->price == 0) return true;
+        else return false;
+    }
+    friend bool operator<(string str, Book a);
+        
 };
-bool operator==(Book a,int price) {
+bool operator==(Book a, int price) {
     if (a.price == price) return true;
     else return false;
 }
-bool operator==(Book a,string title) {
+bool operator==(Book a, string title) {
     if (a.title == title) return true;
     else return false;
 }
-bool operator==(Book a,Book& b) {
+bool operator==(Book a, Book& b) {
     if (a.title == b.title && a.price == b.price && a.pages == b.pages) return true;
     else return false;
 }
+bool operator<(string str, Book a) {
+    if (str.compare(a.title) < 0) return true; //str이 a보다 사전적으로 앞에 있을 때
+    else return false;
+
+}
+
 int main() {
-    Book a("명품 C++", 30000, 500), b("고품", 30000, 500);
-    if (a == 30000) cout << "정가 30000원" << endl; //price 비교
-    if (a == "명품 C++") cout << "명품 C++ 입니다." << endl; //책 title 비교
-    if (a == b) cout << "두 책이 같은 책입니다. " << endl; //title, price, pages를 모두 비교
+    Book a("청춘", 20000, 300);
+    string b;
+    cout << "책 이름을 입력하세요" << endl;
+    getline(cin, b);
+    if (b < a)
+        cout << a.getTitle() << "이 " << b << "보다 뒤에 있구나!" << endl;
 }
