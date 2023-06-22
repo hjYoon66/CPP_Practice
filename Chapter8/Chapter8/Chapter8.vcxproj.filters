@@ -15,58 +15,26 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="7-01.cpp">
+    <ClCompile Include="8-01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-02%281%29.cpp">
+    <ClCompile Include="8-02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-02(2).cpp">
+    <ClCompile Include="8-03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-3.cpp">
+    <ClCompile Include="8-04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-04.cpp">
+    <ClCompile Include="8-05.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-05%281%29.cpp">
+    <ClCompile Include="8-06.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-05(2).cpp">
+    <ClCompile Include="8-07.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="7-06(1).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-06(2).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-07(1).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-07(2).cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-08.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-09.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-10.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-11.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="7-12.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Book.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
